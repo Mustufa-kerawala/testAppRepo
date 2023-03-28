@@ -1,0 +1,18 @@
+ .container {
+    background-color: purple;
+    margin: 5px 10px;
+    padding: 2px 10px;
+    text-align: center;
+
+ }
+  h2{
+    color: aquamarine;
+    text-align: left;
+    text-decoration-line: underline;
+  }
+  p{
+    color: chocolate;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px
+  }
