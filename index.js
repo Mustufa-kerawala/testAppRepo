@@ -7,6 +7,7 @@ fetch('https://jsonplaceholder.typicode.com/posts/')
 .then(elements => elements.forEach((element) => {
 //    Creating a div for each element
     const elementDiv = document.createElement('div')
+    elementDiv.className = "posts"
     // Creating h2 and p for title and body
     const title = document.createElement('h2')
     const body = document.createElement('p')
