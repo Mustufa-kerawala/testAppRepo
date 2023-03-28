@@ -12,6 +12,7 @@ fetch('https://jsonplaceholder.typicode.com/posts/')
     const body = document.createElement('p')
     title.innerText = element.title
     body.innerText = element.body
-    elementDiv.appendChild(title, body)
+    elementDiv.appendChild(title)
+    elementDiv.appendChild(body)
     mainCotainer.append(elementDiv)
 }))
